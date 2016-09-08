@@ -1,4 +1,4 @@
-# Language settings
+# Language setting
 language: node_js
 
 # Version number
@@ -10,7 +10,7 @@ services:
 
 build:
   ci:
-    - npm install
+    - sudo npm install
     - export DISPLAY=:99.0
     - xvfb-run --server-args="-ac" npm test
 
