@@ -14,6 +14,9 @@ build:
     - export DISPLAY=:99.0
     - xvfb-run --server-args="-ac" npm test
 
+  post_ci:
+    - sudo pip install --upgrade botocore
+
 integrations:
   deploy:
     - integrationName: "AWS-Abhijit"
