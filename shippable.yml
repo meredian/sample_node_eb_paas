@@ -12,7 +12,7 @@ build:
   ci:
     - sudo npm install
     - export DISPLAY=:99.0
-    - xvfb-run --server-args="-ac" npm test
+    - xvfb-run npm test
 
 integrations:
   deploy:
