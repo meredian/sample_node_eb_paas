@@ -1,5 +1,5 @@
 #Using a previous build image
-build_image: drydock/u14nodall:2016.02
+#build_image: drydock/u14nodall:2016.02
 
 # Language setting
 language: node_js
@@ -10,6 +10,9 @@ node_js:
 
 services:
   - selenium
+  
+addons:
+  firefox: "23.0"
 
 build:
   ci:
