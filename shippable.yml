@@ -8,11 +8,11 @@ language: node_js
 node_js:
   - "5.3"
 
-services:
-  - selenium
-  
 addons:
   firefox: "23.0"
+
+services:
+  - selenium
 
 build:
   ci:
