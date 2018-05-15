@@ -25,10 +25,10 @@ build:
 
 integrations:
   deploy:
-    - integrationName: "AWS-Abhijit"
+    - integrationName: "Cardero-X AWS Elastic Beanstalk"
       type: aws
       target: eb_paas
       platform: "Node.js"
       application_name: sample-node-eb-paas-app
       env_name: sample-node-eb-paas-env
-      region: us-west-2
+      region: us-east-2
